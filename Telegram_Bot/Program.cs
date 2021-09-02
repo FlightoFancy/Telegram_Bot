@@ -11,8 +11,8 @@ namespace Telegram_Bot
     class Program
     {
 
-        private static string TMDbtoken { get; set; } = "ca4d611fc80bafe0234d2cf6e71ebb52";
-        private static string token { get; set; } = "1830176663:AAGyCLq5RbLk7nNADA8R43INGGrPaWW24mQ";
+        private static string TMDbtoken { get; set; };
+        private static string token { get; set; };
         private static TelegramBotClient client;
         private static TMDbClient movieClient;
 
